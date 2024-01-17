@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper login form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{   
+            background-color: aqua;
+            background-image: url("back.jpg");
+            background-repeat: no-repeat;
+            height: 100%;
+            background-size:cover;
+            /*filter: blur(5px);*/
+            /*width: 100%;*/
+            /* margin: 0; */
+            padding: 0;
+        }
+
+        .back{
+            background-image: url("backw.jpg");
+            background-repeat: no-repeat;
+            position: relative;
+            background-size: 550px;
+            background-position: center;
+            width: 600px;
+            margin: auto;
+            align-content: center;
+            align-items: center;
+            align-self: center;
+            text-align: center;
+            height: 680px;
+        }
+
+        .box{
+            height: 580px;
+            width: 400px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin: auto;
+            position: relative;
+        }
+
+        .box img{
+            height: 112%;
+            width: 140%;
+            left: -80px;
+            top: 30px;
+            position: absolute;
+        }
+
+        .wel img{
+            height: 20%;
+            width: 75%;
+            padding-top: 40px;
+            padding-left: 90px;
+            margin-left: 30px;
+        }
+
+        .email{
+            position: relative;
+            padding-top: 180px;
+            width: 200px;
+            padding-left: 15%;
+        }
+
+        .em{
+            position: relative;
+        }
+
+        .em img{
+            height: 50px;
+            width: 150px;
+            margin-left: 10%;
+        }
+
+        .in img{
+            height: 50px;
+            width: 200px;
+            position: relative;
+        }
+
+        input[type="email"]{
+            background: none;
+            opacity: 50%;
+            position: relative;
+            font-family: 'Kamal',cursive;
+            margin-top: 17%;
+            margin-left: 70%;
+            height: 32px;
+        }
+
+        input[type="email"]:focus{
+            opacity: 100%;
+        }
+
+        .pass{
+            position: relative;
+        }
+
+        .ps img{
+            height: 50px;
+            width: 150px;
+            margin-top: 10%;
+            margin-left: 20%;
+        }
+
+        input[type="password"]{
+            opacity: 50%;
+            background: none;
+            position: relative;
+            font-family: 'Kamal',cursive;
+            margin-top: 18%;
+            margin-left: 50%;
+            height: 38px;
+        }
+
+
+        input[type="password"]:focus{
+            opacity: 100%;
+        }
+
+        .sub{
+            position: relative;
+            height: 80px;
+            margin-left: 30%;
+            margin-top: 20%;
+            width: 150px;
+            opacity: 1;
+            transition: 0.5s;
+            background-image: url("sub.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .sub:hover{
+            transform: rotateX(45deg) ;
+        }
+
+        input[type="submit"]{
+            position: absolute;
+            height: 60px;
+            width: 150px;
+            top:5px;
+            left: 0px;
+            opacity: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bgm">
+        
+    </div>
+    <div class="back">
+        <div class="box">
+            <form action="#">
+            <img src="box.png" alt="">
+            <div class="wel">
+                <img src="wel.png" alt="">
+            </div>
+            <div class="email">
+                <div class="em">
+                    <img src="em.png" alt="">
+                    <img class="in" src="input.png" alt="">
+                    <input class="inp" type="email" placeholder="Enter your email">
+                </div>
+                </div>
+                <div class="pass">
+                    <div class="ps">
+                        <img src="pass.png" alt="">
+                        <img class="in" src="input.png" alt="">
+                        <input class="inp" type="password" placeholder="Enter your password">
+                    </div>
+                    </div>
+                    <div class="sub">
+                        <!-- <img src="sub.png" alt=""> -->
+                        <input type="submit" name="" id="">
+                    </div>
+    
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
